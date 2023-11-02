@@ -31,7 +31,7 @@ SELECT u.username, c.password
 FROM users as u
 INNER JOIN credentials as c ON u.id = c.user_id;
 
--- one many
+-- one many suppose song only has one singer everytime
 
 CREATE TABLE singers
 (
